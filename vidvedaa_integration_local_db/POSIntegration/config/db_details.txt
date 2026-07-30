@@ -1,0 +1,14 @@
+# Database Connection Details
+# Format: key: value
+
+dbtype: mssql
+server: 127.0.0.1\\SQLEXPRESS
+port: 1433
+username: sa
+password: smile
+database: MASTER
+vendorid: VVC00103
+
+# Optional fields
+encrypt: false
+trustServerCertificate: true

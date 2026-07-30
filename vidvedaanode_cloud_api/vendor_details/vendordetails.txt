@@ -1,0 +1,4 @@
+vendor:DC BOOKS
+outletname:DOMESTIC 2
+outletid:
+Terminal:TERMINAL 2

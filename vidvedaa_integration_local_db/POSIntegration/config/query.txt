@@ -1,0 +1,13 @@
+SELECT 
+       [Date],
+       [TimeofSale],
+       [Series],
+       [BillNo],
+       [GrossAmountB4Discount],
+       [TotalDiscount],
+       [TaxableAmount],
+       [TaxAmount],
+       [InvoiceValueWithTax]
+FROM [master].[dbo].[vw_ADSRSalesExport]
+WHERE [Date] >= CAST(GETDATE() AS DATE)
+  AND [Date] < DATEADD(DAY, 1, CAST(GETDATE() AS DATE));
