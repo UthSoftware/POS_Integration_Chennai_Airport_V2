@@ -1,0 +1,31 @@
+{
+  "name": "new1vendor",
+  "version": "1.0.0",
+  "description": "eShopaid SOAP API integration with Vidveda Cloud API Ingest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js --once --mock",
+    "once:mock": "node index.js --once --mock",
+    "once:live": "node index.js --once --live",
+    "server": "node server.js",
+    "test": "node index.js --once --mock"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3",
+    "winston": "^3.17.0",
+    "xml2js": "^0.6.2"
+  },
+  "keywords": [
+    "soap",
+    "eshopaid",
+    "vidveda",
+    "pos",
+    "cloud-ingest"
+  ],
+  "author": "",
+  "license": "ISC"
+}

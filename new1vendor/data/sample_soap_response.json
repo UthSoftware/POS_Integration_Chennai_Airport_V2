@@ -1,0 +1,2548 @@
+[
+  {
+    "receipt_no": "K01000001",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment1",
+        "msdata:rowOrder": "0"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "K01000001",
+      "TIMESTAMP": "2026-08-24T08:33:26+05:30",
+      "INV_AMT": "678.6408",
+      "TAX_AMT": "20.3592",
+      "DIS_AMT": "0",
+      "NET_AMT": "699",
+      "RET_AMT": "0",
+      "CUST_NAME": "S",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment2",
+          "msdata:rowOrder": "1"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000001",
+        "TIMESTAMP": "2026-08-24T08:33:26+05:30",
+        "ITEM_CODE": "1043",
+        "ITEM_NAME": "HANGIGNS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "699",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "20.3592",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "678.6408",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table2",
+          "msdata:rowOrder": "1"
+        },
+        "RECEIPT_NO": "K01000001",
+        "TIMESTAMP": "2026-08-24T08:33:26+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "Card",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "699",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000001",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment2",
+        "msdata:rowOrder": "1"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000001",
+      "TIMESTAMP": "2026-08-24T08:20:42+05:30",
+      "INV_AMT": "427.1838",
+      "TAX_AMT": "12.8162",
+      "DIS_AMT": "8.98",
+      "NET_AMT": "440",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment1",
+          "msdata:rowOrder": "0"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000001",
+        "TIMESTAMP": "2026-08-24T08:20:42+05:30",
+        "ITEM_CODE": "1042",
+        "ITEM_NAME": "KIDSSTUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "449",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "12.8162",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "427.2039",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table1",
+          "msdata:rowOrder": "0"
+        },
+        "RECEIPT_NO": "UPI01000001",
+        "TIMESTAMP": "2026-08-24T08:20:42+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "440",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000002",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment3",
+        "msdata:rowOrder": "2"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000002",
+      "TIMESTAMP": "2026-08-24T08:34:27+05:30",
+      "INV_AMT": "3977.6698",
+      "TAX_AMT": "119.3302",
+      "DIS_AMT": "0",
+      "NET_AMT": "4097",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment3",
+          "msdata:rowOrder": "2"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000002",
+        "TIMESTAMP": "2026-08-24T08:34:27+05:30",
+        "ITEM_CODE": "1044",
+        "ITEM_NAME": "MEDIUM CLUTCHES",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1299",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "37.835",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1261.165",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment4",
+          "msdata:rowOrder": "3"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000002",
+        "TIMESTAMP": "2026-08-24T08:34:27+05:30",
+        "ITEM_CODE": "1045",
+        "ITEM_NAME": "BANANACLIPS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1999",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "58.2234",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1940.7767",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment5",
+          "msdata:rowOrder": "4"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000002",
+        "TIMESTAMP": "2026-08-24T08:34:27+05:30",
+        "ITEM_CODE": "1046",
+        "ITEM_NAME": "TICTACKS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "799",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "23.2718",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "775.7282",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table3",
+          "msdata:rowOrder": "2"
+        },
+        "RECEIPT_NO": "UPI01000002",
+        "TIMESTAMP": "2026-08-24T08:34:27+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "4097",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000003",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment4",
+        "msdata:rowOrder": "3"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000003",
+      "TIMESTAMP": "2026-08-24T08:36:34+05:30",
+      "INV_AMT": "3106.7904",
+      "TAX_AMT": "93.2096",
+      "DIS_AMT": "597.81",
+      "NET_AMT": "3200",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment6",
+          "msdata:rowOrder": "5"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000003",
+        "TIMESTAMP": "2026-08-24T08:36:34+05:30",
+        "ITEM_CODE": "1047",
+        "ITEM_NAME": "METAL JHUMKAS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1299",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "31.8798",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1062.6577",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment7",
+          "msdata:rowOrder": "6"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000003",
+        "TIMESTAMP": "2026-08-24T08:36:34+05:30",
+        "ITEM_CODE": "1263",
+        "ITEM_NAME": "CHENNAI FLORAL BEADED HEAVY SETS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "2499",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "61.3298",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "2044.3276",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table4",
+          "msdata:rowOrder": "3"
+        },
+        "RECEIPT_NO": "UPI01000003",
+        "TIMESTAMP": "2026-08-24T08:36:34+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "3200",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "K01000002",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment5",
+        "msdata:rowOrder": "4"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "K01000002",
+      "TIMESTAMP": "2026-08-25T09:33:17+05:30",
+      "INV_AMT": "9508.7374",
+      "TAX_AMT": "285.2626",
+      "DIS_AMT": "0",
+      "NET_AMT": "9794",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment8",
+          "msdata:rowOrder": "7"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000002",
+        "TIMESTAMP": "2026-08-25T09:33:17+05:30",
+        "ITEM_CODE": "1051",
+        "ITEM_NAME": "CHAIN PENDANT EAR RING SETS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1199",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "34.9224",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1164.0777",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment9",
+          "msdata:rowOrder": "8"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000002",
+        "TIMESTAMP": "2026-08-25T09:33:17+05:30",
+        "ITEM_CODE": "1052",
+        "ITEM_NAME": "CHAIN PENDANT EAR RING SETS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1199",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "34.9224",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1164.0777",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment10",
+          "msdata:rowOrder": "9"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000002",
+        "TIMESTAMP": "2026-08-25T09:33:17+05:30",
+        "ITEM_CODE": "1053",
+        "ITEM_NAME": "CHAIN PENDANT EAR RING SETS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1999",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "58.2234",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1940.7767",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment11",
+          "msdata:rowOrder": "10"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000002",
+        "TIMESTAMP": "2026-08-25T09:33:17+05:30",
+        "ITEM_CODE": "1054",
+        "ITEM_NAME": "CHAINPENDANT WOMEN",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1999",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "58.2234",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1940.7767",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment12",
+          "msdata:rowOrder": "11"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000002",
+        "TIMESTAMP": "2026-08-25T09:33:17+05:30",
+        "ITEM_CODE": "1055",
+        "ITEM_NAME": "CHAINPENDANT WOMEN",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1999",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "58.2234",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1940.7767",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment13",
+          "msdata:rowOrder": "12"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000002",
+        "TIMESTAMP": "2026-08-25T09:33:17+05:30",
+        "ITEM_CODE": "1056",
+        "ITEM_NAME": "METAL JHUMKAS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1399",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "40.7476",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1358.2524",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table5",
+          "msdata:rowOrder": "4"
+        },
+        "RECEIPT_NO": "K01000002",
+        "TIMESTAMP": "2026-08-25T09:33:17+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "Card",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "9794",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000004",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment6",
+        "msdata:rowOrder": "5"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000004",
+      "TIMESTAMP": "2026-08-25T09:35:24+05:30",
+      "INV_AMT": "1357.2816",
+      "TAX_AMT": "40.7184",
+      "DIS_AMT": "0",
+      "NET_AMT": "1398",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment14",
+          "msdata:rowOrder": "13"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000004",
+        "TIMESTAMP": "2026-08-25T09:35:24+05:30",
+        "ITEM_CODE": "1057",
+        "ITEM_NAME": "HANGIGNS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "699",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "20.3592",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "678.6408",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment15",
+          "msdata:rowOrder": "14"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000004",
+        "TIMESTAMP": "2026-08-25T09:35:24+05:30",
+        "ITEM_CODE": "1058",
+        "ITEM_NAME": "HANGIGNS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "699",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "20.3592",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "678.6408",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table6",
+          "msdata:rowOrder": "5"
+        },
+        "RECEIPT_NO": "UPI01000004",
+        "TIMESTAMP": "2026-08-25T09:35:24+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "1398",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000005",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment7",
+        "msdata:rowOrder": "6"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000005",
+      "TIMESTAMP": "2026-08-25T09:36:20+05:30",
+      "INV_AMT": "3317.4672",
+      "TAX_AMT": "99.5328",
+      "DIS_AMT": "379.7",
+      "NET_AMT": "3417",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment16",
+          "msdata:rowOrder": "15"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000005",
+        "TIMESTAMP": "2026-08-25T09:36:20+05:30",
+        "ITEM_CODE": "1059",
+        "ITEM_NAME": "METAL JHUMKAS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1299",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "34.0514",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1135.0485",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment17",
+          "msdata:rowOrder": "16"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000005",
+        "TIMESTAMP": "2026-08-25T09:36:20+05:30",
+        "ITEM_CODE": "1060",
+        "ITEM_NAME": "FRENCH LOOPS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1299",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "34.0514",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1135.0485",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment18",
+          "msdata:rowOrder": "17"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000005",
+        "TIMESTAMP": "2026-08-25T09:36:20+05:30",
+        "ITEM_CODE": "1061",
+        "ITEM_NAME": "HANGIGNS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1199",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "31.43",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1047.6699",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table7",
+          "msdata:rowOrder": "6"
+        },
+        "RECEIPT_NO": "UPI01000005",
+        "TIMESTAMP": "2026-08-25T09:36:20+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "3417",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000006",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment8",
+        "msdata:rowOrder": "7"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000006",
+      "TIMESTAMP": "2026-08-25T09:37:19+05:30",
+      "INV_AMT": "726.2136",
+      "TAX_AMT": "21.7864",
+      "DIS_AMT": "0",
+      "NET_AMT": "748",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment19",
+          "msdata:rowOrder": "18"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000006",
+        "TIMESTAMP": "2026-08-25T09:37:19+05:30",
+        "ITEM_CODE": "1062",
+        "ITEM_NAME": "FINGER RINGS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "399",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "11.6214",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "387.3786",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment20",
+          "msdata:rowOrder": "19"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000006",
+        "TIMESTAMP": "2026-08-25T09:37:19+05:30",
+        "ITEM_CODE": "1063",
+        "ITEM_NAME": "KEY CHAINS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "349",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "10.165",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "338.835",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table8",
+          "msdata:rowOrder": "7"
+        },
+        "RECEIPT_NO": "UPI01000006",
+        "TIMESTAMP": "2026-08-25T09:37:19+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "748",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000072",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment9",
+        "msdata:rowOrder": "8"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000072",
+      "TIMESTAMP": "2026-08-25T12:30:52+05:30",
+      "INV_AMT": "406.796",
+      "TAX_AMT": "12.204",
+      "DIS_AMT": "29.99",
+      "NET_AMT": "419",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment120",
+          "msdata:rowOrder": "119"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000072",
+        "TIMESTAMP": "2026-08-25T12:30:52+05:30",
+        "ITEM_CODE": "1048",
+        "ITEM_NAME": "STUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "449",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "12.204",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "406.8027",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table59",
+          "msdata:rowOrder": "58"
+        },
+        "RECEIPT_NO": "UPI01000072",
+        "TIMESTAMP": "2026-08-25T12:30:52+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "419",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000073",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment10",
+        "msdata:rowOrder": "9"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000073",
+      "TIMESTAMP": "2026-08-25T12:31:35+05:30",
+      "INV_AMT": "241.7476",
+      "TAX_AMT": "7.2524",
+      "DIS_AMT": "0",
+      "NET_AMT": "249",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment121",
+          "msdata:rowOrder": "120"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000073",
+        "TIMESTAMP": "2026-08-25T12:31:35+05:30",
+        "ITEM_CODE": "1049",
+        "ITEM_NAME": "SMALL CLUTCHES",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "249",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "7.2524",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "241.7476",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table60",
+          "msdata:rowOrder": "59"
+        },
+        "RECEIPT_NO": "UPI01000073",
+        "TIMESTAMP": "2026-08-25T12:31:35+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "249",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000074",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment11",
+        "msdata:rowOrder": "10"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000074",
+      "TIMESTAMP": "2026-08-25T12:35:28+05:30",
+      "INV_AMT": "741.7568",
+      "TAX_AMT": "22.2432",
+      "DIS_AMT": "35.32",
+      "NET_AMT": "764",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment122",
+          "msdata:rowOrder": "121"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000074",
+        "TIMESTAMP": "2026-08-25T12:35:28+05:30",
+        "ITEM_CODE": "1050",
+        "ITEM_NAME": "HANGIGNS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "799",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "22.2432",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "741.441",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table61",
+          "msdata:rowOrder": "60"
+        },
+        "RECEIPT_NO": "UPI01000074",
+        "TIMESTAMP": "2026-08-25T12:35:28+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "764",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "C01000001",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment12",
+        "msdata:rowOrder": "11"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "C01000001",
+      "TIMESTAMP": "2026-08-26T09:47:21+05:30",
+      "INV_AMT": "1213.5978",
+      "TAX_AMT": "36.4022",
+      "DIS_AMT": "148.19",
+      "NET_AMT": "1250",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment36",
+          "msdata:rowOrder": "35"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "C01000001",
+        "TIMESTAMP": "2026-08-26T09:47:21+05:30",
+        "ITEM_CODE": "1079",
+        "ITEM_NAME": "METAL JHUMKAS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "799",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "20.805",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "693.501",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment37",
+          "msdata:rowOrder": "36"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "C01000001",
+        "TIMESTAMP": "2026-08-26T09:47:21+05:30",
+        "ITEM_CODE": "1080",
+        "ITEM_NAME": "ROSELILY PEARLEAR RINGS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "599",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "15.5972",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "519.9087",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table20",
+          "msdata:rowOrder": "19"
+        },
+        "RECEIPT_NO": "C01000001",
+        "TIMESTAMP": "2026-08-26T09:47:21+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "Cash",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "1250",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "C01000002",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment13",
+        "msdata:rowOrder": "12"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "C01000002",
+      "TIMESTAMP": "2026-08-26T09:47:51+05:30",
+      "INV_AMT": "435.9224",
+      "TAX_AMT": "13.0776",
+      "DIS_AMT": "0",
+      "NET_AMT": "449",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment38",
+          "msdata:rowOrder": "37"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "C01000002",
+        "TIMESTAMP": "2026-08-26T09:47:51+05:30",
+        "ITEM_CODE": "1081",
+        "ITEM_NAME": "KIDSSTUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "449",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "13.0776",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "435.9223",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table21",
+          "msdata:rowOrder": "20"
+        },
+        "RECEIPT_NO": "C01000002",
+        "TIMESTAMP": "2026-08-26T09:47:51+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "Cash",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "449",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "K01000003",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment14",
+        "msdata:rowOrder": "13"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "K01000003",
+      "TIMESTAMP": "2026-08-26T09:45:38+05:30",
+      "INV_AMT": "2902.9056",
+      "TAX_AMT": "87.0944",
+      "DIS_AMT": "407.76",
+      "NET_AMT": "2990",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment32",
+          "msdata:rowOrder": "31"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000003",
+        "TIMESTAMP": "2026-08-26T09:45:38+05:30",
+        "ITEM_CODE": "1075",
+        "ITEM_NAME": "HORIZENTAL DESIGNED CLIPS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1699",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "43.5472",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1451.5728",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment33",
+          "msdata:rowOrder": "32"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000003",
+        "TIMESTAMP": "2026-08-26T09:45:38+05:30",
+        "ITEM_CODE": "1076",
+        "ITEM_NAME": "HORIZENTAL DESIGNED CLIPS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1699",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "43.5472",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1451.5728",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table17",
+          "msdata:rowOrder": "16"
+        },
+        "RECEIPT_NO": "K01000003",
+        "TIMESTAMP": "2026-08-26T09:45:38+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "Card",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "2990",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000007",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment15",
+        "msdata:rowOrder": "14"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000007",
+      "TIMESTAMP": "2026-08-26T09:40:05+05:30",
+      "INV_AMT": "1940.7726",
+      "TAX_AMT": "58.2274",
+      "DIS_AMT": "148.86",
+      "NET_AMT": "1999",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment21",
+          "msdata:rowOrder": "20"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000007",
+        "TIMESTAMP": "2026-08-26T09:40:05+05:30",
+        "ITEM_CODE": "1064",
+        "ITEM_NAME": "CHENNAI FLORAL BEADED HEAVY SETS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1899",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "51.4776",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1715.9217",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment22",
+          "msdata:rowOrder": "21"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000007",
+        "TIMESTAMP": "2026-08-26T09:40:05+05:30",
+        "ITEM_CODE": "1065",
+        "ITEM_NAME": "SMALL CLUTCHES",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "249",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "6.7498",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "224.9945",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table9",
+          "msdata:rowOrder": "8"
+        },
+        "RECEIPT_NO": "UPI01000007",
+        "TIMESTAMP": "2026-08-26T09:40:05+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "1999",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000008",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment16",
+        "msdata:rowOrder": "15"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000008",
+      "TIMESTAMP": "2026-08-26T09:40:33+05:30",
+      "INV_AMT": "435.9224",
+      "TAX_AMT": "13.0776",
+      "DIS_AMT": "0",
+      "NET_AMT": "449",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment23",
+          "msdata:rowOrder": "22"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000008",
+        "TIMESTAMP": "2026-08-26T09:40:33+05:30",
+        "ITEM_CODE": "1066",
+        "ITEM_NAME": "STUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "449",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "13.0776",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "435.9223",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table10",
+          "msdata:rowOrder": "9"
+        },
+        "RECEIPT_NO": "UPI01000008",
+        "TIMESTAMP": "2026-08-26T09:40:33+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "449",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000009",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment17",
+        "msdata:rowOrder": "16"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000009",
+      "TIMESTAMP": "2026-08-26T09:41:28+05:30",
+      "INV_AMT": "1133.9748",
+      "TAX_AMT": "34.0252",
+      "DIS_AMT": "129.8",
+      "NET_AMT": "1168",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment24",
+          "msdata:rowOrder": "23"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000009",
+        "TIMESTAMP": "2026-08-26T09:41:28+05:30",
+        "ITEM_CODE": "1067",
+        "ITEM_NAME": "FRENCH LOOPS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "499",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "13.0806",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "436.0194",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment25",
+          "msdata:rowOrder": "24"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000009",
+        "TIMESTAMP": "2026-08-26T09:41:28+05:30",
+        "ITEM_CODE": "1068",
+        "ITEM_NAME": "CHAIN PENDANT EAR RING SETS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "799",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "20.9446",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "698.1553",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table11",
+          "msdata:rowOrder": "10"
+        },
+        "RECEIPT_NO": "UPI01000009",
+        "TIMESTAMP": "2026-08-26T09:41:28+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "1168",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000010",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment18",
+        "msdata:rowOrder": "17"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000010",
+      "TIMESTAMP": "2026-08-26T09:42:18+05:30",
+      "INV_AMT": "387.3786",
+      "TAX_AMT": "11.6214",
+      "DIS_AMT": "0",
+      "NET_AMT": "399",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment26",
+          "msdata:rowOrder": "25"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000010",
+        "TIMESTAMP": "2026-08-26T09:42:18+05:30",
+        "ITEM_CODE": "1069",
+        "ITEM_NAME": "BIRDS STUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "399",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "11.6214",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "387.3786",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table12",
+          "msdata:rowOrder": "11"
+        },
+        "RECEIPT_NO": "UPI01000010",
+        "TIMESTAMP": "2026-08-26T09:42:18+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "399",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000011",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment19",
+        "msdata:rowOrder": "18"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000011",
+      "TIMESTAMP": "2026-08-26T09:42:58+05:30",
+      "INV_AMT": "610.6766",
+      "TAX_AMT": "18.3234",
+      "DIS_AMT": "69.9",
+      "NET_AMT": "629",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment27",
+          "msdata:rowOrder": "26"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000011",
+        "TIMESTAMP": "2026-08-26T09:42:58+05:30",
+        "ITEM_CODE": "1070",
+        "ITEM_NAME": "RESIN PENDANTS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "699",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "18.3234",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "610.7767",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table13",
+          "msdata:rowOrder": "12"
+        },
+        "RECEIPT_NO": "UPI01000011",
+        "TIMESTAMP": "2026-08-26T09:42:58+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "629",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000012",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment20",
+        "msdata:rowOrder": "19"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000012",
+      "TIMESTAMP": "2026-08-26T09:43:24+05:30",
+      "INV_AMT": "241.7476",
+      "TAX_AMT": "7.2524",
+      "DIS_AMT": "0",
+      "NET_AMT": "249",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment28",
+          "msdata:rowOrder": "27"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000012",
+        "TIMESTAMP": "2026-08-26T09:43:24+05:30",
+        "ITEM_CODE": "1071",
+        "ITEM_NAME": "SMALL CLUTCHES",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "249",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "7.2524",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "241.7476",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table14",
+          "msdata:rowOrder": "13"
+        },
+        "RECEIPT_NO": "UPI01000012",
+        "TIMESTAMP": "2026-08-26T09:43:24+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "249",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000013",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment21",
+        "msdata:rowOrder": "20"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000013",
+      "TIMESTAMP": "2026-08-26T09:44:11+05:30",
+      "INV_AMT": "774.7574",
+      "TAX_AMT": "23.2426",
+      "DIS_AMT": "0",
+      "NET_AMT": "798",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment29",
+          "msdata:rowOrder": "28"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000013",
+        "TIMESTAMP": "2026-08-26T09:44:11+05:30",
+        "ITEM_CODE": "1072",
+        "ITEM_NAME": "SMALL CLUTCHES",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "249",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "7.2524",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "241.7476",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment30",
+          "msdata:rowOrder": "29"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000013",
+        "TIMESTAMP": "2026-08-26T09:44:11+05:30",
+        "ITEM_CODE": "1073",
+        "ITEM_NAME": "TICTACKS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "549",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "15.9902",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "533.0097",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table15",
+          "msdata:rowOrder": "14"
+        },
+        "RECEIPT_NO": "UPI01000013",
+        "TIMESTAMP": "2026-08-26T09:44:11+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "798",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000014",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment22",
+        "msdata:rowOrder": "21"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000014",
+      "TIMESTAMP": "2026-08-26T09:44:43+05:30",
+      "INV_AMT": "581.5534",
+      "TAX_AMT": "17.4466",
+      "DIS_AMT": "0",
+      "NET_AMT": "599",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment31",
+          "msdata:rowOrder": "30"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000014",
+        "TIMESTAMP": "2026-08-26T09:44:43+05:30",
+        "ITEM_CODE": "1074",
+        "ITEM_NAME": "ROSELILY PEARLEAR RINGS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "599",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "17.4466",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "581.5534",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table16",
+          "msdata:rowOrder": "15"
+        },
+        "RECEIPT_NO": "UPI01000014",
+        "TIMESTAMP": "2026-08-26T09:44:43+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "599",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000015",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment23",
+        "msdata:rowOrder": "22"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000015",
+      "TIMESTAMP": "2026-08-26T09:46:16+05:30",
+      "INV_AMT": "1066.9902",
+      "TAX_AMT": "32.0098",
+      "DIS_AMT": "0",
+      "NET_AMT": "1099",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment34",
+          "msdata:rowOrder": "33"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000015",
+        "TIMESTAMP": "2026-08-26T09:46:16+05:30",
+        "ITEM_CODE": "1077",
+        "ITEM_NAME": "MEDIUM CLUTCHES",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1099",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "32.0098",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1066.9903",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table18",
+          "msdata:rowOrder": "17"
+        },
+        "RECEIPT_NO": "UPI01000015",
+        "TIMESTAMP": "2026-08-26T09:46:16+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "1099",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000016",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment24",
+        "msdata:rowOrder": "23"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000016",
+      "TIMESTAMP": "2026-08-26T09:46:48+05:30",
+      "INV_AMT": "1261.165",
+      "TAX_AMT": "37.835",
+      "DIS_AMT": "0",
+      "NET_AMT": "1299",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment35",
+          "msdata:rowOrder": "34"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000016",
+        "TIMESTAMP": "2026-08-26T09:46:48+05:30",
+        "ITEM_CODE": "1078",
+        "ITEM_NAME": "METAL JHUMKAS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1299",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "37.835",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1261.165",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table19",
+          "msdata:rowOrder": "18"
+        },
+        "RECEIPT_NO": "UPI01000016",
+        "TIMESTAMP": "2026-08-26T09:46:48+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "1299",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "C01000003",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment25",
+        "msdata:rowOrder": "24"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "C01000003",
+      "TIMESTAMP": "2026-08-27T09:50:25+05:30",
+      "INV_AMT": "1017.4758",
+      "TAX_AMT": "30.5242",
+      "DIS_AMT": "0",
+      "NET_AMT": "1048",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment39",
+          "msdata:rowOrder": "38"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "C01000003",
+        "TIMESTAMP": "2026-08-27T09:50:25+05:30",
+        "ITEM_CODE": "1082",
+        "ITEM_NAME": "ROSELILY PEARLEAR RINGS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "599",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "17.4466",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "581.5534",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment40",
+          "msdata:rowOrder": "39"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "C01000003",
+        "TIMESTAMP": "2026-08-27T09:50:25+05:30",
+        "ITEM_CODE": "1083",
+        "ITEM_NAME": "ROSE STUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "449",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "13.0776",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "435.9223",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table22",
+          "msdata:rowOrder": "21"
+        },
+        "RECEIPT_NO": "C01000003",
+        "TIMESTAMP": "2026-08-27T09:50:25+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "Cash",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "1048",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "C01000004",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment26",
+        "msdata:rowOrder": "25"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "C01000004",
+      "TIMESTAMP": "2026-08-27T09:52:39+05:30",
+      "INV_AMT": "1009.7062",
+      "TAX_AMT": "30.2938",
+      "DIS_AMT": "107.91",
+      "NET_AMT": "1040",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment41",
+          "msdata:rowOrder": "40"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "C01000004",
+        "TIMESTAMP": "2026-08-27T09:52:39+05:30",
+        "ITEM_CODE": "1085",
+        "ITEM_NAME": "STUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "749",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "19.7648",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "658.8291",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment42",
+          "msdata:rowOrder": "41"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "C01000004",
+        "TIMESTAMP": "2026-08-27T09:52:39+05:30",
+        "ITEM_CODE": "1086",
+        "ITEM_NAME": "BIRDS STUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "399",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "10.529",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "350.965",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table23",
+          "msdata:rowOrder": "22"
+        },
+        "RECEIPT_NO": "C01000004",
+        "TIMESTAMP": "2026-08-27T09:52:39+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "Cash",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "1040",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "K01000004",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment27",
+        "msdata:rowOrder": "26"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "K01000004",
+      "TIMESTAMP": "2026-08-27T09:56:53+05:30",
+      "INV_AMT": "8288.3628",
+      "TAX_AMT": "248.6372",
+      "DIS_AMT": "1506.45",
+      "NET_AMT": "8537",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment46",
+          "msdata:rowOrder": "45"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000004",
+        "TIMESTAMP": "2026-08-27T09:56:53+05:30",
+        "ITEM_CODE": "1090",
+        "ITEM_NAME": "SETS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "2999",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "74.247",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "2474.9029",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment47",
+          "msdata:rowOrder": "46"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000004",
+        "TIMESTAMP": "2026-08-27T09:56:53+05:30",
+        "ITEM_CODE": "1091",
+        "ITEM_NAME": "SETS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "2999",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "74.247",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "2474.9029",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment48",
+          "msdata:rowOrder": "47"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000004",
+        "TIMESTAMP": "2026-08-27T09:56:53+05:30",
+        "ITEM_CODE": "1092",
+        "ITEM_NAME": "KIDSSTUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "449",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "11.116",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "370.534",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment49",
+          "msdata:rowOrder": "48"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000004",
+        "TIMESTAMP": "2026-08-27T09:56:53+05:30",
+        "ITEM_CODE": "1093",
+        "ITEM_NAME": "KIDSSTUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "449",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "11.116",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "370.534",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment50",
+          "msdata:rowOrder": "49"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000004",
+        "TIMESTAMP": "2026-08-27T09:56:53+05:30",
+        "ITEM_CODE": "1094",
+        "ITEM_NAME": "STUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "749",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "18.5432",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "618.1068",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment51",
+          "msdata:rowOrder": "50"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000004",
+        "TIMESTAMP": "2026-08-27T09:56:53+05:30",
+        "ITEM_CODE": "1095",
+        "ITEM_NAME": "HORIZENTAL DESIGNED CLIPS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1699",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "42.0626",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1402.0874",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment52",
+          "msdata:rowOrder": "51"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "K01000004",
+        "TIMESTAMP": "2026-08-27T09:56:53+05:30",
+        "ITEM_CODE": "1096",
+        "ITEM_NAME": "BRACELETS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "699",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "17.3054",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "576.8447",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table27",
+          "msdata:rowOrder": "26"
+        },
+        "RECEIPT_NO": "K01000004",
+        "TIMESTAMP": "2026-08-27T09:56:53+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "Card",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "8537",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000017",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment28",
+        "msdata:rowOrder": "27"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000017",
+      "TIMESTAMP": "2026-08-27T09:53:13+05:30",
+      "INV_AMT": "678.6408",
+      "TAX_AMT": "20.3592",
+      "DIS_AMT": "0",
+      "NET_AMT": "699",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment43",
+          "msdata:rowOrder": "42"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000017",
+        "TIMESTAMP": "2026-08-27T09:53:13+05:30",
+        "ITEM_CODE": "1087",
+        "ITEM_NAME": "RESIN PENDANTS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "699",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "20.3592",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "678.6408",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table24",
+          "msdata:rowOrder": "23"
+        },
+        "RECEIPT_NO": "UPI01000017",
+        "TIMESTAMP": "2026-08-27T09:53:13+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "699",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000018",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment29",
+        "msdata:rowOrder": "28"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000018",
+      "TIMESTAMP": "2026-08-27T09:54:27+05:30",
+      "INV_AMT": "679.5976",
+      "TAX_AMT": "20.4024",
+      "DIS_AMT": "98.52",
+      "NET_AMT": "700",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment44",
+          "msdata:rowOrder": "43"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000018",
+        "TIMESTAMP": "2026-08-27T09:54:27+05:30",
+        "ITEM_CODE": "1088",
+        "ITEM_NAME": "CHAIN PENDANT EAR RING SETS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "799",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "20.4024",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "680.0809",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table25",
+          "msdata:rowOrder": "24"
+        },
+        "RECEIPT_NO": "UPI01000018",
+        "TIMESTAMP": "2026-08-27T09:54:27+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "700",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000019",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment30",
+        "msdata:rowOrder": "29"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000019",
+      "TIMESTAMP": "2026-08-27T09:54:58+05:30",
+      "INV_AMT": "775.7282",
+      "TAX_AMT": "23.2718",
+      "DIS_AMT": "0",
+      "NET_AMT": "799",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment45",
+          "msdata:rowOrder": "44"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000019",
+        "TIMESTAMP": "2026-08-27T09:54:58+05:30",
+        "ITEM_CODE": "1089",
+        "ITEM_NAME": "METAL JHUMKAS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "799",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "23.2718",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "775.7282",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table26",
+          "msdata:rowOrder": "25"
+        },
+        "RECEIPT_NO": "UPI01000019",
+        "TIMESTAMP": "2026-08-27T09:54:58+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "799",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000020",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment31",
+        "msdata:rowOrder": "30"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000020",
+      "TIMESTAMP": "2026-08-27T09:57:48+05:30",
+      "INV_AMT": "1938.835",
+      "TAX_AMT": "58.165",
+      "DIS_AMT": "0",
+      "NET_AMT": "1997",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment53",
+          "msdata:rowOrder": "52"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000020",
+        "TIMESTAMP": "2026-08-27T09:57:48+05:30",
+        "ITEM_CODE": "1097",
+        "ITEM_NAME": "SIDECLIPS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "799",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "23.2718",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "775.7282",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment54",
+          "msdata:rowOrder": "53"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000020",
+        "TIMESTAMP": "2026-08-27T09:57:48+05:30",
+        "ITEM_CODE": "1098",
+        "ITEM_NAME": "MEDIUM CLUTCHES",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "799",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "23.2718",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "775.7282",
+        "TRANSACTION_STATUS": "SALES"
+      },
+      {
+        "$": {
+          "diffgr:id": "ItemSegment55",
+          "msdata:rowOrder": "54"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000020",
+        "TIMESTAMP": "2026-08-27T09:57:48+05:30",
+        "ITEM_CODE": "1099",
+        "ITEM_NAME": "SMALL CLUTCHES",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "399",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "11.6214",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "387.3786",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table28",
+          "msdata:rowOrder": "27"
+        },
+        "RECEIPT_NO": "UPI01000020",
+        "TIMESTAMP": "2026-08-27T09:57:48+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "1997",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000021",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment32",
+        "msdata:rowOrder": "31"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000021",
+      "TIMESTAMP": "2026-08-27T09:58:48+05:30",
+      "INV_AMT": "1071.8402",
+      "TAX_AMT": "32.1598",
+      "DIS_AMT": "194.85",
+      "NET_AMT": "1104",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment56",
+          "msdata:rowOrder": "55"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000021",
+        "TIMESTAMP": "2026-08-27T09:58:48+05:30",
+        "ITEM_CODE": "1100",
+        "ITEM_NAME": "METAL JHUMKAS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "1299",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "32.1598",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "1071.9903",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table29",
+          "msdata:rowOrder": "28"
+        },
+        "RECEIPT_NO": "UPI01000021",
+        "TIMESTAMP": "2026-08-27T09:58:48+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "1104",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "UPI01000075",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment33",
+        "msdata:rowOrder": "32"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "UPI01000075",
+      "TIMESTAMP": "2026-08-27T12:45:14+05:30",
+      "INV_AMT": "523.298",
+      "TAX_AMT": "15.702",
+      "DIS_AMT": "59.9",
+      "NET_AMT": "539",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment123",
+          "msdata:rowOrder": "122"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "UPI01000075",
+        "TIMESTAMP": "2026-08-27T12:45:14+05:30",
+        "ITEM_CODE": "1084",
+        "ITEM_NAME": "ROSELILY PEARLEAR RINGS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "599",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "15.702",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "523.3981",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table62",
+          "msdata:rowOrder": "61"
+        },
+        "RECEIPT_NO": "UPI01000075",
+        "TIMESTAMP": "2026-08-27T12:45:14+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "UPI",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "539",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  },
+  {
+    "receipt_no": "C01000005",
+    "transaction": {
+      "$": {
+        "diffgr:id": "TransactionSegment34",
+        "msdata:rowOrder": "33"
+      },
+      "RECORD_TYPE": "G100",
+      "POS_TILL": "",
+      "SHIFT_NO": "",
+      "RECEIPT_NO": "C01000005",
+      "TIMESTAMP": "2026-08-28T10:10:11+05:30",
+      "INV_AMT": "435.9224",
+      "TAX_AMT": "13.0776",
+      "DIS_AMT": "0",
+      "NET_AMT": "449",
+      "RET_AMT": "0",
+      "CUST_NAME": "",
+      "TRANSACTION_STATUS": "SALES"
+    },
+    "items": [
+      {
+        "$": {
+          "diffgr:id": "ItemSegment67",
+          "msdata:rowOrder": "66"
+        },
+        "RECORD_TYPE": "G111",
+        "RECEIPT_NO": "C01000005",
+        "TIMESTAMP": "2026-08-28T10:10:11+05:30",
+        "ITEM_CODE": "1114",
+        "ITEM_NAME": "KIDSSTUDS",
+        "ITEM_QTY": "1",
+        "ITEM_PRICE": "449",
+        "ITEM_CATG": "",
+        "TAX_NAME": "3% GST",
+        "TAX_AMT": "13.0776",
+        "DISC_AMT": "0",
+        "TAX_TYPE": "E",
+        "NET_AMT": "435.9223",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ],
+    "payments": [
+      {
+        "$": {
+          "diffgr:id": "Table22",
+          "msdata:rowOrder": "21"
+        },
+        "RECEIPT_NO": "C01000005",
+        "TIMESTAMP": "2026-08-28T10:10:11+05:30",
+        "RECORD_TYPE": "G115",
+        "PAYMENT_NAME": "Cash",
+        "CURR_CODE": "1",
+        "EXCHANGE_RATE": "1",
+        "AMOUNT": "449",
+        "TRANSACTION_STATUS": "SALES"
+      }
+    ]
+  }
+]

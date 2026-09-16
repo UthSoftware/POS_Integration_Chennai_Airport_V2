@@ -1,0 +1,35 @@
+2026-09-09 17:26:03 [INFO]: new1vendor Service Initializing...
+{
+  "cloudApiUrl": "https://pos-integration-chennai-airport-v2.uthsoftware.com/api/vendor-data/ingest",
+  "vendorId": "VVC00047",
+  "mode": "mock",
+  "schedulerEnabled": false
+}
+2026-09-09 17:26:03 [INFO]: Running in one-time execution mode (--once)
+2026-09-09 17:26:03 [INFO]: === Starting Scheduled/Manual Fetch Cycle ===
+2026-09-09 17:26:03 [INFO]: === Starting Data Fetch Cycle ===
+{
+  "mode": "mock",
+  "fromDate": "2026-09-09T00:00:00",
+  "toDate": "2026-09-09T23:59:59"
+}
+2026-09-09 17:26:03 [INFO]: Loading mock data from C:\Users\ayupk\Downloads\newVendorSide\new1vendor\data\sample_soap_response.json
+2026-09-09 17:26:03 [INFO]: Posting data to Cloud API
+{
+  "endpoint": "https://pos-integration-chennai-airport-v2.uthsoftware.com/api/vendor-data/ingest",
+  "recordCount": 34,
+  "attempt": 1
+}
+2026-09-09 17:26:03 [INFO]: Payload sample to Cloud API
+{
+  "requestId": "req-1788954963621-hw92zt9k7",
+  "sampleReceipt": "K01000001",
+  "totalReceipts": 34
+}
+2026-09-09 17:26:09 [INFO]: Data posted successfully to Cloud API
+{
+  "status": 200,
+  "statusText": "OK",
+  "recordCount": 34
+}
+2026-09-09 17:27:08 [INFO]: new1vendor Server listening on port 4000
