@@ -1,0 +1,41 @@
+SELECT
+    P."Receipt No.",
+    P."Rec Amount"        AS nett,
+    P."Date",
+    P."Time",
+    P."Description",
+    P."Barcode",
+    P."MRP",
+    P."Disc Amount",
+    P."Quantity",
+    P."MRP Total",
+    
+    P."Tax Amount",
+    P."Taxable"           AS gross,
+    P."Net Amount",
+    P."DocCurr",
+	ADD_SECONDS(
+        R."DocDate",
+        (
+            FLOOR(R."CreateTime" / 100) * 3600
+          + MOD(R."CreateTime", 100) * 60
+        )
+    ) AS DocDateTime,
+
+    R."ShiftNo",
+    R."DocNum",
+    R."DocDate",
+    R."TaxDate",
+    R."CreateTime",
+    R."DocTotal",
+    R."VatSum",
+    R."Tran_Status"
+
+FROM "JAGMINIDB"."PF_CAS006_BZR_VW_PosTransDetails" P
+JOIN "JAGMINIDB"."PF_CAS006_BZR_Receipts" R
+     ON P."Receipt No." = R."DocNum"
+
+WHERE P."Date" >=  '2025-12-01'
+  AND P."Date" <= '2025-12-01'
+
+ORDER BY P."Date", P."Time";

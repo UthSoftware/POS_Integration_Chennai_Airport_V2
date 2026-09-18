@@ -1,0 +1,6 @@
+# Tally REST API Configuration
+connectionType: tally
+tallyApiUrl: http://localhost:4000/tally
+vendorid: VVC00165
+vendorName: TallyStore
+timeout: 60000
