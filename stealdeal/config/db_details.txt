@@ -1,0 +1,14 @@
+# Database Connection Details
+# Format: key: value
+
+dbtype: mssql
+server: genuineitsolution.com
+port: 1433
+username: Genuineitsolution
+password: GITsol@#@123
+database: CHE_StealDeal
+vendorid: VVC00120
+
+# Optional fields
+encrypt: false
+trustServerCertificate: true

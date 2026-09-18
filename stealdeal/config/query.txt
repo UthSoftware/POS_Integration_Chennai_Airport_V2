@@ -1,0 +1,4 @@
+SELECT *
+FROM Sales
+WHERE sa_CreatedDate >= '2025-12-01'
+  AND sa_CreatedDate < CAST(GETDATE() + 1 AS DATE);
